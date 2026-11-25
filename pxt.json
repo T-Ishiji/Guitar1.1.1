@@ -1,0 +1,20 @@
+{
+    "name": "guitar-chord",
+    "version": "1.1.1",
+    "description": "Guitar chord extension for micro:bit V2. Adds second-harmonic mode: fundamental on outputs 1 and 3, octave on output 2. Retains v1.1.0 modes and timbres.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "multitone.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
